@@ -40,6 +40,8 @@ public class AccelerometerSensor implements SensorEventListener {
                 last_y = y;
                 last_z = z;
 
+            // Changing this one file
+
                 if(speed > 3){
                     if(MainActivity.isSampling()) {
                         System.out.println("Logging...");
